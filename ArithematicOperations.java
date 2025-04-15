@@ -45,6 +45,7 @@ public class ArithematicOperations
                     break;
                 default:
                     System.out.println("Invalid choice.");
+                    System.out.println("Enter a valid choice.");
                     continue; // Go to the next iteration of the loop
             }
 
@@ -70,6 +71,7 @@ public class ArithematicOperations
     public static double divide(double a, double b) {
         if (b == 0) {
             System.out.println("Cannot divide by zero.");
+            System.out.println("Enter a valid number,number should not be 0.")
             return Double.NaN; // Not a Number
         }
         return a / b;
